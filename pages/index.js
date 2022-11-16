@@ -8,23 +8,15 @@ import Testimonials from '../components/Testimonial'
 
 export default function Home() {
   return (
-    <div>
-      <Head>
-        <title>Yellow Connect</title>
-        <meta name="description" content="Yellow Connect Landing Page" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className='pb-10'>
-        <div className="md:h-screen px-10 pb-20 bg-[#181818] mb-20">
+    <div className='pb-10'>
+        <div className='pt-8 md:h-screen px-10 bg-[#181818]'>
           <Header />
           <Hero />
         </div>
         <About />
         <PacoteList />
-        <Testimonials />
-      </main>
-
+        {/*<Lead />
+        <Testimonials />*/}
     </div>
   )
 }

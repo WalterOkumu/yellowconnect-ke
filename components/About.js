@@ -1,7 +1,7 @@
 export default function About() {
     return(
                 <div className="md:w-1/2 w-full md:mt-16 pb-9 flex flex-col items-center mx-auto px-8">
-                    <h1 className="text-5xl font-bold text-[#FBED04]">Build strong digital presence</h1>
+                    <h1 className="text-5xl font-bold">Build strong digital presence</h1>
                     <h2 className="text-2xl italic font-light pt-2 text-center">
                         <span className="font-bold">Promote your business in print and digital! </span>
                             With the Yellow Connect package.</h2>
