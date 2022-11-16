@@ -23,7 +23,7 @@ export default function PacoteList() {
 
 
     return(
-        <section className="pt-40 mx-auto">
+        <section className="pt-20 mx-auto">
              <h3 className="text-3xl font-bold text-center pb-10">Our packages </h3>
              <div className="flex flex-wrap md:flex-nowrap md:flex-row mx-auto justify-center gap-16 md:w-3/4 w-1/2">
                 

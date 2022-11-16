@@ -2,8 +2,8 @@ import styles from '../styles/Home.module.css';
 
 export default function Lead() {
     return(
-        <section id='sectionInfo' className="mt-40 mx-auto md:w-2/4 px-5">
-            <h3 className="text-3xl mb-12 font-bold text-center">
+        <section id='sectionInfo' className="mt-20 mx-auto md:w-2/4 px-5">
+            <h3 className="text-3xl mb-12 font-bold pl-6">
                 Fill in the fields below to obtain the desired information free of charge
             </h3>
             {/*<div className="flex flex-col justify-center items-center gap-4 mt-8">

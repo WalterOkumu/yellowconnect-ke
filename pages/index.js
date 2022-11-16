@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import About from '../components/About'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Lead from '../components/Lead'
@@ -15,12 +16,12 @@ export default function Home() {
       </Head>
 
       <main className='pb-10'>
-        <div className="md:h-screen px-10 pb-4 bg-[#181818]">
+        <div className="md:h-screen px-10 pb-20 bg-[#181818] mb-20">
           <Header />
           <Hero />
         </div>
+        <About />
         <PacoteList />
-        <Lead />
         <Testimonials />
       </main>
 
