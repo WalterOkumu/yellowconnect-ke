@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import About from '../components/About'
+import ContactForm from '../components/ContactForm'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Lead from '../components/Lead'
@@ -15,6 +16,7 @@ export default function Home() {
         </div>
         <About />
         <PacoteList />
+        <ContactForm />
         {/*<Lead />
         <Testimonials />*/}
     </div>

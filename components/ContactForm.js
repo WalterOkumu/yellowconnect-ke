@@ -1,13 +1,9 @@
-import styles from '../styles/Home.module.css';
-
-export default function Lead() {
+export default function ContactForm() {
     return(
-        <section id='sectionInfo' className="mt-0 mx-auto md:w-2/4 px-0 mb-20">
-            <h1 className="text-3xl mb-10 font-bold md:pl-11 pl-5">
-                Promote your business in print and digital! With the Yellow Connect package.
-            </h1>
-
-            <h2 className='md:pl-11 pl-5'> Fill in the fields below to obtain the desired information free of charge </h2>
+    <section id='sectionInfo' className="mt-20 mx-auto md:w-2/4 px-5">
+            <h3 className="text-center">
+                Fill in the fields below to obtain the desired information free of charge
+            </h3>
             {/*<div className="flex flex-col justify-center items-center gap-4 mt-8">
                 <div>
                     <label htmlFor="nome" className="font-bold text-sm">Name: </label>
@@ -65,5 +61,5 @@ export default function Lead() {
                 </div>
                 </div>
         </section>
-    );
+    )
 }
