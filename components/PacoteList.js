@@ -23,20 +23,20 @@ export default function PacoteList() {
 
 
     return(
-        <section className="pt-20 mx-auto">
+        <section className="md:mt-20 mt-14 mx-auto">
              <h3 className="text-3xl font-bold text-center pb-10">Our packages </h3>
-             <div className="flex flex-wrap md:flex-nowrap md:flex-row mx-auto justify-center gap-16 md:w-3/4 w-1/2">
+             <div className="flex flex-wrap md:flex-nowrap md:flex-row mx-auto justify-center gap-16 md:w-3/4">
                 
-                <div className="md:w-[14rem] bg-[#1E1E1E] text-[#FFFFFF] w-[12rem] border cursor-pointer hover:shadow-3xl duration-500 ease-out px-3 py-4 rounded-md text-center">
+                <div className="md:w-[14rem] bg-[#1E1E1E] text-[#FFFFFF] w-3/4 border cursor-pointer hover:shadow-3xl duration-500 ease-out px-3 py-4 rounded-md text-center">
                     <p className="text-lg font-bold text-[#FBED04]">Beginner</p>
                     <div className="">
                         <p className="block text-sm mt-4">Yellow Spot</p>
                         <p className="block text-sm mt-2">Online Listing</p>
-                        <p className="block text-sm mt-2">Print Directory [Bold] - name, Line of Info, Physical Address Y.P and W.P</p>
+                        <p className="block text-sm mt-2">Print Directory [Bold] - name, Line of Info, Physical Address Yellow Pages and White Pages</p>
                         <button className="bg-[#FBED04] mt-28 px-8 py-1 rounded font-bold text-sm text-[#1E1E1E]"><a href="#sectionInfo">Know more</a></button>
                     </div>
                 </div>
-                <div className="md:w-[14rem] bg-[#1E1E1E] text-[#FFFFFF] w-[12rem] border cursor-pointer hover:shadow-3xl duration-500 ease-out px-3 py-4 rounded-md text-center">
+                <div className="md:w-[14rem] bg-[#1E1E1E] text-[#FFFFFF] w-3/4 border cursor-pointer hover:shadow-3xl duration-500 ease-out px-3 py-4 rounded-md text-center">
                     <p className="text-lg font-bold text-[#FBED04]">Pro</p>
                     <div className="">
                         <p className="block text-sm mt-4">Website</p>
@@ -50,7 +50,7 @@ export default function PacoteList() {
                     </div>
                     <button className="bg-[#FBED04] mt-4 px-8 py-1 rounded font-bold text-sm text-[#1E1E1E]"><a href="#sectionInfo">Know more</a></button>
                 </div>
-                <div className="md:w-[14rem] bg-[#1E1E1E] text-[#FFFFFF] w-[12rem] border cursor-pointer hover:shadow-3xl duration-500 ease-out px-3 py-4 rounded-md text-center">
+                <div className="md:w-[14rem] bg-[#1E1E1E] text-[#FFFFFF] w-3/4 border cursor-pointer hover:shadow-3xl duration-500 ease-out px-3 py-4 rounded-md text-center">
                     <p className="text-lg font-bold text-[#FBED04]">Full E-commerce</p>
                     <div>
                         <p className="block text-sm mt-4">Website</p>

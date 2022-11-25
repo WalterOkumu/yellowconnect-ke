@@ -2,13 +2,14 @@ import styles from '../styles/Home.module.css';
 
 export default function Lead() {
     return(
-        <section id='sectionInfo' className="mt-20 mx-auto md:w-2/4 px-0 mb-20 ">
-            <h1 className="text-3xl mb-10 font-bold md:pl-11 pl-5 text-[#FDEA03]">
-                Promote your business in print and digital! With the Yellow Connect package!
+        <section id='sectionInfo' className="md:mt-20 mx-auto md:w-1/2 mb-9 w-full">
+            <h1 className="text-3xl mb-3 font-bold text-[#FDEA03]">
+                Promote your business in print and digital with the Yellow Connect packages!
             </h1>
 
-            <h2 className='md:pl-11 pl-5'> 
-                Fill in the fields below to obtain our Black Friday special offer </h2>
+            <h2 className='mb-3'> 
+                Fill in the fields below to obtain our Black Friday special offer 
+            </h2>
             {/*<div className="flex flex-col justify-center items-center gap-4 mt-8">
                 <div>
                     <label htmlFor="nome" className="font-bold text-sm">Name: </label>
