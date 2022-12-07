@@ -8,7 +8,7 @@ export default function Lead() {
             </h1>
 
             <h2 className='mb-3'> 
-                Fill in the fields below to obtain our Black Friday special offer 
+                Fill in the fields below to obtain a special offer of 30% OFF 
             </h2>
             {/*<div className="flex flex-col justify-center items-center gap-4 mt-8">
                 <div>
