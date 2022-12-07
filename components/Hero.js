@@ -11,7 +11,7 @@ export default function Hero() {
                 <Lead />                
 
               <div className="md:w-1/2 w-full">
-                <Image src={heroImage} width={1090} height={1000} alt="" className="object-contain"/>
+                {/*<Image src={heroImage} width={1090} height={1000} alt="" className="object-contain"/>*/}
               </div>
              </div>
         </div>

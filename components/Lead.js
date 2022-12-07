@@ -7,7 +7,7 @@ export default function Lead() {
                 Promote your business in print and digital with the Yellow Connect packages!
             </h1>
 
-            <h2 className='mb-3'> 
+            <h2 className='mb-3 font-bold'> 
                 Fill in the fields below to obtain a special offer of 30% OFF 
             </h2>
             {/*<div className="flex flex-col justify-center items-center gap-4 mt-8">
